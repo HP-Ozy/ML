@@ -1,3 +1,16 @@
+
+/*Esempio di Utilizzo
+Supponiamo che 
+tu stia sviluppando un algoritmo di regressione 
+lineare e desideri verificare che funzioni 
+correttamente. Puoi utilizzare il codice sopra per
+generare un set di dati sintetici, 
+applicare il tuo algoritmo ai dati generati, 
+e confrontare i parametri stimati 
+(pendenza e intercetta) con quelli noti 
+(2.0 e 1.0 rispettivamente) 
+per valutare le prestazioni del tuo algoritmo.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -56,6 +69,5 @@ double x = (double)rand() / RAND_MAX * 100; genera un valore x casuale tra 0 e 1
 double noise = (double)rand() / RAND_MAX * 10 - 5; genera un rumore casuale tra -5 e 5.
 double y = SLOPE * x + INTERCEPT + noise; calcola il valore di y usando la formula della retta con aggiunta di rumore.
 Stampa dei Punti Dati: printf("%.2f, %.2f\n", x, y); stampa i valori x e y con due cifre decimali di precisione.
-Esempio di Utilizzo
-Supponiamo che tu stia sviluppando un algoritmo di regressione lineare e desideri verificare che funzioni correttamente. Puoi utilizzare il codice sopra per generare un set di dati sintetici, applicare il tuo algoritmo ai dati generati, e confrontare i parametri stimati (pendenza e intercetta) con quelli noti (2.0 e 1.0 rispettivamente) per valutare le prestazioni del tuo algoritmo.
+
 */
