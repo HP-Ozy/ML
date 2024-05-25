@@ -1,5 +1,11 @@
 
-/*Esempio di Utilizzo
+/*
+Generazione di Dati: Scrivi un programma 
+in C che genera dati casuali in due dimensioni (X, Y) secondo una distribuzione 
+lineare con rumore.
+
+
+Esempio di Utilizzo
 Supponiamo che 
 tu stia sviluppando un algoritmo di regressione 
 lineare e desideri verificare che funzioni 

@@ -1,3 +1,9 @@
+
+/*
+
+Regressione Lineare Semplice: Implementa l'algoritmo di regressione lineare utilizzando il metodo dei minimi quadrati.
+
+*/
 #include <stdio.h>
 
 double compute_error(double b, double m, double x[], double y[], int n) {

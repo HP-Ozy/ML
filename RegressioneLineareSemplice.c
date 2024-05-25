@@ -1,3 +1,9 @@
+/*
+
+Regressione Lineare con Gradiente Discendente: Scrivi un programma che implementa la regressione 
+lineare utilizzando il metodo del gradiente discendente.
+*/
+
 #include <stdio.h>
 
 void simple_linear_regression(int n, double x[], double y[], double* slope, double* intercept) {
